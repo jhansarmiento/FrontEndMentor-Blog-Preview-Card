@@ -7,11 +7,11 @@
     <title>Blog Preview Card</title>
   </head>
   <body>
-    <div
+    <main
       id="background"
       class="bg-[#F4CF4D] w-screen h-screen flex justify-center items-center"
     >
-      <div
+      <article
         id="card"
         class="bg-white w-[327px] h-[501px] sm:w-[384px] sm:h-[522px] rounded-[20px] shadow-custom"
       >
@@ -21,7 +21,7 @@
           class="rounded-[10px] m-6 w-[279px] h-[200px] sm:w-[336px] sm:h-[200px] object-cover"
         />
 
-        <div id="content" class="flex-col mx-6 justify-between">
+        <section id="content" class="flex-col mx-6 justify-between">
           <button
             class="font-figtree bg-[#F4CF4D] font-extrabold text-xs sm:text-sm px-3 py-1 rounded"
           >
@@ -39,18 +39,18 @@
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
-        </div>
+        </section>
 
-        <div id="author" class="flex items-center m-6 gap-3">
+        <footer id="author" class="flex items-center m-6 gap-3">
           <img
             src="/assets/images/image-avatar.webp"
             alt="image-avatar"
             class="w-8 h-8"
           />
           <p class="font-extrabold text-sm">Greg Hooper</p>
-        </div>
-      </div>
-    </div>
+        </footer>
+      </article>
+    </main>
   </body>
 
   <style>

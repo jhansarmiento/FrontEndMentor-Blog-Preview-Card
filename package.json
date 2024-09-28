@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./styles.css --watch"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
