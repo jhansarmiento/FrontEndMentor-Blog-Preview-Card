@@ -647,23 +647,6 @@ video {
   border-radius: 20px;
 }
 
-.border {
-  border-width: 1px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .bg-\[\#F4CF4D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(244 207 77 / var(--tw-bg-opacity));
